@@ -16,7 +16,7 @@ function App() {
         <div className="hero-left">
           <span className="eyebrow">Portfolio</span>
           <h1 className="name">Naufal Albar Agus</h1>
-          <p className="job-title">Digital Marketer & Tech Enthusiast</p>
+          <p className="job-title">Digital Marketer & Aspiring Software Engineer</p>
           <p className="description">
             Bridging marketing and programming to build products that make sense for users.
             From live streaming to landing pages, I've learned that the best solutions come 
