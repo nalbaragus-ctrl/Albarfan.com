@@ -1,6 +1,10 @@
 {
+  
   "name": "my-portfolio-websites",
   "version": "0.1.0",
+  "author": "Naufal Albar Agus",
+  "description": "Naufal Albar Agus personal portfolio website, showcasing projects and skills",
+  "homepage": "https://albarfan.com",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
