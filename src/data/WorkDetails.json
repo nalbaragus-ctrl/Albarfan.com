@@ -1,0 +1,177 @@
+{
+  "1": {
+    "id": 1,
+    "year": "2025 — 2026",
+    "media" : {
+        "type": "mixed",
+        "folder": "Wupscale",
+        "items": [
+            {"type": "photo", "src": "upscale 1.jpg", "caption": "Preparing tiktok campaign with chinese client"},
+            {"type": "photo", "src": "upscale 2.jpg", "caption": "Setting a OBS Studio live stream for a client campaign"},
+            {"type": "photo", "src": "upscale 3.jpg", "caption": "Evaluate meeting with client and team to discuss campaign performance"},
+            {"type": "photo", "src": "upscale 4.jpg", "caption": "Analyzing campaign data to optimize performance"},
+            {"type": "photo", "src": "upscale 5.jpg", "caption": "Implementing a structured content calendar for improved efficiency with chinese client"},
+            {"type": "photo", "src": "upscale 6.jpg", "caption": "Leading as a speaker on meeting trip with WIPRO UNZA client in Jakarta"},
+            {"type": "photo", "src": "upscale 7.jpg", "caption": "Post presentation meeting with WIPRO UNZA client in Jakarta"},
+            {"type": "photo", "src": "upscale 8.jpg", "caption": "Setting an OBS environmet for WIPRO UNZA client for influencer Abel Cantika campaign"},
+            {"type": "photo", "src": "upscale 9.jpg", "caption": "Ensuring the operational went smooth as butter"},
+            {"type": "photo", "src": "upscale 10.jpeg", "caption": "Weekly meeting with my internal team"},
+            {"type": "photo", "src": "upscale 13.jpeg", "caption": "Handling a client Braven campaign as Mas Ade Setiawan as the KOL"},
+            {"type": "video", "src": "upscale 12.mp4", "caption": "Leading as a speaker on meeting trip with WIPRO UNZA client in Jakarta"},
+            {"type": "photo", "src": "upscale 14.jpg", "caption": "Weekly meeting with cross supervisor and CEO"},
+            {"type": "photo", "src": "upscale 15.jpg", "caption": "Setting a TiktTok live studio environment"},
+            {"type": "photo", "src": "upscale 16.jpg", "caption": "Meeting with to discuss ads campaign with client"}
+           
+        ]
+        },
+    "title": "E-commerce Operational Supervisor",
+    "company": "Upscale House Project",
+    "location": "Bandung, Indonesia",
+    "type": "Full-time",
+    "overview": "E-commerce specialist with deep expertise in TikTok Shop and Shopee operations. Manages everything from product listings to campaign execution, ensuring brands stand out in crowded marketplaces. Collaborates with creative teams to produce platform-optimized content that drives traffic and sales.",
+    
+    "responsibilities": [
+      "Led international client meetings traveling cities to consult with key stakeholders, align strategies, and strengthen business partnerships",
+      "Drove 30% increased sales through targeted campaign optimization and data-driven decision-making",
+      "Elevated visual content quality across Shopee and TikTok platforms by enforcing updated creative guidelines and design consistency",
+      "Analyzed campaign data to identify trends, refine strategies, and maximize ROI for multiple e-commerce clients",
+      "Resolved internal scheduling conflicts by implementing a structured content calendar, improving team efficiency and reducing campaign delays",
+      "Created a system of internal KPIs to monitor individual and team performance, resulting in better alignment with client goals and faster project completion"
+    ],
+    
+    "achievements": [
+      { "metric": "20%", "label": "Sales Increase", "description": "Drove sales growth through targeted campaign optimization across client portfolio" },
+      { "label": "Creative Consistency", "description": "Elevated visual content quality across Shopee and TikTok platforms" },
+      { "metric": "35+", "label": "Handled Brands", "description": "Reduced campaign delays through structured content calendar implementation" }
+    ],
+    
+    "skills": ["Campaign Optimization", "Data Analysis", "Client Management", "TikTok Marketing", "Shopee Platform", "Content Strategy", "KPI Development", "Team Leadership"],
+    "tools": ["TikTok Ads Manager", "Shopee Seller Center", "Google Analytics", "Project Management Tools", "Data Visualization Software", "Content Calendar Software", "OBS Studio", "Lark", "TikTok Studio"]
+  },
+  
+  "2": {
+    "id": 2,
+    "year": "2022 — 2025",
+    "media": {
+        "folder": "Biensi",
+        "items": [
+            {"type": "photo", "src": "biensi 1.jpg", "caption": "Highwat GMV during a TikTok live stream session"},
+            {"type": "photo", "src": "biensi 2.jpg", "caption": "The Team"},
+            {"type": "photo", "src": "biensi 3.jpg", "caption": "Photosoot situation"},
+            {"type": "photo", "src": "biensi 4.jpg", "caption": "The photography team setting up for a product catalog shoot"},
+            {"type": "photo", "src": "biensi 5.JPG", "caption": "Getting ready for a photo catalog"},
+            {"type": "photo", "src": "biensi 6.PNG", "caption": "Live stream session with trainee"},
+            {"type": "photo", "src": "biensi 7.jpg", "caption": "Highest GMV within a week in Shopee"},
+            {"type": "photo", "src": "biensi 8.jpg", "caption": "The e-commerce team gathering"},
+            {"type": "photo", "src": "biensi 9.jpg", "caption": "Preparing to get on air"}
+           
+        ]
+    },
+    "title": "Senior Streamer",
+    "company": "Biensi Fesyenindo / ThreeSeconds",
+    "location": "Bandung, Indonesia",
+    "type": "Full-time",
+    "overview": "Generated over Rp 200 million (~$11,860 USD) in sales during a single 5-hour TikTok live stream through high-energy hosting and strategic product promotion while serving as team mentor for new hires.",
+    
+    "responsibilities": [
+      "Hosted daily 5-hour TikTok live streams showcasing fashion products to thousands of concurrent viewers",
+      "Served as team mentor, guiding new hires through live hosting techniques, audience engagement strategies, and e-commerce best practices",
+      "Generated over Rp 820 million (~$48,600 USD) in sales through targeted Shopee live stream campaigns, data analysis, and continuous optimization",
+      "Appeared in product catalog content and campaign visuals, helping establish a consistent and relatable brand image",
+      "Coordinated with inventory and logistics teams for real-time product availability during live events"
+    ],
+    
+    "achievements": [
+      { "metric": "Rp 200M", "label": "Peak Single Stream", "description": "Generated ~$11,860 USD in sales during one 5-hour TikTok live session" },
+      { "metric": "Rp 820M", "label": "Total Shopee Sales", "description": "Cumulative sales through targeted live stream campaigns (~$48,600 USD)" },
+      { "metric": "15+", "label": "Mentored Hosts", "description": "Successfully trained new streaming talent on hosting techniques and engagement" }
+    ],
+    
+    "skills": ["Live Streaming", "Public Speaking", "Audience Engagement", "Sales Conversion", "Training & Development", "E-commerce Operations", "Brand Representation"],
+    "tools": ["TikTok Live", "Shopee Live", "OBS Studio", "E-commerce Dashboards"]
+  },
+  
+  "3": {
+    "id": 3,
+    "year": "2021-2022",
+    "media": {
+      "folder": "Panary",
+      "items": [
+        {"type": "photo", "src": "panarybody 1.jpg", "caption": "The panarybody team celebrating a monthly target achievement"},
+        {"type": "photo", "src": "panarybody 2.jpg", "caption": "The panarybody team celebrating a monthly target achievement"},
+        {"type": "photo", "src": "panarybody 3.jpg", "caption": "Live stream session"},
+        {"type": "photo", "src": "panarybody 4.jpg", "caption": "Highest GMV on live stream session"},
+        {"type": "photo", "src": "panarybody 15.jpg", "caption": "After photoshoot session"}
+      ]
+    },
+    "title": "Junior Streamer",
+    "company": "Panarybody",
+    "location": "Bandung, Indonesia",
+    "type": "Full-time",
+    "overview": "Hosted live streaming sessions for a leading shoe brand, building foundational skills in live commerce and consistently growing account traffic within 2 months of onboarding.",
+    
+    "responsibilities": [
+      "Conducted regular live streaming sessions showcasing footwear products",
+      "Engaged with viewers to answer product questions and drive conversions",
+      "Executed regular live streams to showcase products, engage audiences, and reinforce brand identity",
+      "Coordinated with operations team for order processing and fulfillment during live sessions"
+    ],
+    
+    "achievements": [
+      { "metric": "2 months", "label": "Traffic Growth", "description": "Consistently increased account engagement and follower count from onboarding" },
+      { "metric": "Daily", "label": "Stream Cadence", "description": "Maintained regular streaming schedule for brand consistency" }
+    ],
+    
+    "skills": ["Live Commerce", "Product Presentation", "Customer Engagement", "Platform Navigation", "Real-time Sales"],
+    "tools": ["Shopee Live", "TikTok Live", "Social Commerce Platforms"]
+  },
+  
+  "4": {
+    "id": 4,
+    "year": "2021",
+    "title": "Store Clerk",
+    "company": "Eigerindo Multi Produk Industri",
+    "location": "Bandung, Indonesia",
+    "type": "Full-time",
+    "overview": "Managed daily retail operations including customer service, cashier duties, and handling of transactions in an accurate and timely manner while maintaining store cleanliness and operational standards.",
+    
+    "responsibilities": [
+      "Executed daily store operations, including customer service, cashier duties, and handling of transactions in an accurate and timely manner",
+      "Monitored inventory levels, assisted in stock receiving, and coordinated with the back office to prevent stockouts and overstock",
+      "Maintained cleanliness, orderliness, and compliance with store operational procedures to support a safe and comfortable shopping environment"
+    ],
+    
+    "achievements": [
+      { "metric": "Satisfied", "label": "Customer", "description": "Maintained consistent service quality through attentive customer care" },
+      { "metric": "Zero", "label": "Stock Issues", "description": "Prevented stockouts through proactive inventory monitoring" }
+    ],
+    
+    "skills": ["Customer Service", "Retail Operations", "Point of Sale", "Inventory Management", "Store Maintenance"],
+    "tools": ["POS System", "Inventory Software"]
+  },
+  
+  "5": {
+    "id": 5,
+    "year": "2019",
+    "title": "Marketing & Sponsorship Staff",
+    "company": "L.A Soundsation",
+    "location": "Bandung, Indonesia",
+    "type": "Part-time",
+    "overview": "Supported planning and execution of marketing activities and promotional campaigns for L.A Soundsation events to increase brand visibility and audience engagement while managing sponsor relationships.",
+    
+    "responsibilities": [
+      "Supported planning and execution of marketing activities and promotional campaigns for L.A Soundsation events to increase brand visibility and audience engagement",
+      "Coordinated sponsorship-related tasks, including identification of potential sponsors, preparation of basic sponsor materials, and support during negotiations and follow-ups",
+      "Assisted in managing on-site event marketing and sponsorship activations, ensuring sponsor branding requirements and agreed deliverables were met",
+      "Collaborated with internal teams and external partners to gather content, maintain marketing timelines, and contribute to post-event reporting on sponsorship and marketing outcomes"
+    ],
+    
+    "achievements": [
+      { "metric": "Reach", "label": "Sponsor Retention", "description": "Successfully maintained and renewed key sponsor partnerships" },
+      { "metric": "10+", "label": "Events Supported", "description": "Contributed to marketing and sponsorship for multiple events" }
+    ],
+    
+    "skills": ["Event Marketing", "Sponsor Relations", "Partnership Management", "Campaign Coordination", "Content Gathering"],
+    "tools": ["Marketing Materials", "Event Management Platforms", "Sponsor CRM"]
+  }
+}

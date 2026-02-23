@@ -1,0 +1,57 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Upscale House Project",
+      "role": "HTML/CSS Contributor",
+      "category": "Web Development",
+      "year": "2025",
+      "status": "Completed",
+      "type": "tech",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+      
+    },
+    {
+      "id": 2,
+      "title": "Bakti Desa - Social Services",
+      "role": "Vice President",
+      "category": "Leadership",
+      "year": "2022-2025",
+      "status": "Completed",
+      "type": "nontech",
+      "technologies": ["Leadership", "Project Management", "Community Outreach"]
+    },
+    {
+      "id": 3,
+      "title": "Student Executive Board",
+      "role": "Advocacy Division Head",
+      "category": "Leadership",
+      "year": "2023",
+      "status": "Completed",
+      "type": "nontech",
+      "technologies": ["Policy Development", "Student Advocacy", "Public Speaking"]
+      
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Website",
+      "role": "Developer",
+      "category": "Web Development",
+      "year": "2025",
+      "status": "Completed",
+      "type": "tech",
+      "technologies": ["React", "CSS3", "JavaScript", "React Router"]
+      
+    }
+  ],
+  "categories": [
+    {"id": 1, "name": "All Projects", "count": 4},
+    {"id": 2, "name": "Web Development", "count": 2},
+    {"id": 3, "name": "Leadership", "count": 2}
+  ],
+  "technologies": [
+    "HTML", "CSS", "JavaScript", "React", "Leadership",
+    "Project Management", "Community Outreach", "Policy Development",
+    "Student Advocacy", "Public Speaking", "React Router", "CSS3"
+  ]
+}

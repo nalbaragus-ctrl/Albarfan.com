@@ -1,0 +1,59 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "year": "2025 — 2026",
+      "title": "E-commerce Operational Supervisor",
+      "company": "Upscale House Project",
+      "type": "Full-time",
+      "description": "Managed online marketing campaigns and landing pages for e-commerce clients, specialising in TikTok and Shopee platform growth.",
+      "highlights": [
+        "Increased client sales by 30% through targeted TikTok campaigns",
+        "Improved brand visibility across multiple platforms",
+        "Created landing pages that improved agency credibility"
+      ]
+    },
+    {
+      "id": 2,
+      "year": "2022 — 2025",
+      "title": "Senior Host Live Streamer",
+      "company": "Biensi Fesyenindo / ThreeSeconds",
+      "type": "Full-time",
+      "description": "Trained and educated new employees, hosted live streaming sessions for a nationally recognised fashion brand.",
+      "highlights": [
+        "Increased brand engagement through live streaming sessions",
+        "Boosted sales up to $1,000 during single live events",
+        "Managed e-commerce across multiple platforms simultaneously"
+      ]
+    },
+    {
+      "id": 3,
+      "year": "2021 — 2022",
+      "title": "Junior Streamer",
+      "company": "Panarybody",
+      "type": "Full-time",
+      "description": "Hosted live streaming sessions for a leading shoe brand.",
+      "highlights": [
+        "Consistently increased account traffic within 2 months of onboarding"
+      ]
+    },
+    {
+      "id": 4,
+      "year": "2021",
+      "title": "Store Clerk",
+      "company": "Eigerindo Multi Produk Industri",
+      "type": "Full-time",
+      "description": "Managed daily retail operations by assisting customers and maintaining store cleanliness and product organisation.",
+      "highlights": []
+    },
+    {
+      "id": 5,
+      "year": "2019",
+      "title": "Marketing & Sponsorship Staff",
+      "company": "L.A Soundsation",
+      "type": "Part-time",
+      "description": "Maintained strong relationships with existing sponsors, serving as the main point of contact to ensure client satisfaction.",
+      "highlights": []
+    }
+  ]
+}

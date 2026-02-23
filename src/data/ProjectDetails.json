@@ -1,0 +1,107 @@
+{
+  "1": {
+    "showDisclaimer": true,
+    "description": "I wasn't the lead developer on this one, but I definitely left my fingerprint on the code. I jumped in to help with the HTML structure and CSS styling, cleaning things up, making sure the layout made sense, and giving the design a proper front-end home.",
+    "features": [
+        "Clean semantic HTML structure",
+        "Responsive CSS layout",
+        "Modern styling techniques"
+      ],
+    "disclaimerText": "Note: UI/UX may differ from current live site due to internal development since my departure.",
+    "gallery": {
+      "folder": "Upscale",
+      "images": {
+        "hero": "Screenshot 2026-02-13 192559.png",
+        "services": "Screenshot 2026-02-13 192636.png",
+        "contact": "Screenshot 2026-02-13 192710.png",
+        "footer": "WhatsApp Image 2026-02-13 at 7.36.08 PM.jpeg"
+      }
+    }
+  },
+  "2": {
+    "showDisclaimer": false,
+    "description": "As Vice President, led a youth organization focused on community development through education and outreach programs. Coordinated village development projects and educational initiatives.",
+    "features": [
+        "Led team of 50+ volunteers",
+        "Organized 10+ community events",
+        "Managed budget and resources"
+      ],
+    "media": {
+      "type": "mixed",
+      "folder": "Bds",
+      "items": [
+        {"type": "photo", "src": "photos/bakdes 3.JPG", "caption": "The 2022 Team"},
+        {"type": "photo", "src": "photos/bakdes 7.jpg", "caption": "The 2023 Team"},
+        {"type": "photo", "src": "photos/bakdes 2.jpg", "caption": "The 2024 Team"},
+        {"type": "photo", "src": "photos/bakdes 1.jpg", "caption": "Being Master of Ceremony for welcoming the new team"},
+        {"type": "photo", "src": "photos/bakdes 16.jpg", "caption": "The team and the orphanage children"},
+        {"type": "video", "src": "videos/bakdes 10.mp4", "caption": "Stunting educational activities"},
+        {"type": "video", "src": "videos/bakdes 11.mp4", "caption": "imunisation with the local health center"},
+        {"type": "video", "src": "videos/bakdes 12.mp4", "caption": "Society service closing ceremony "},
+        {"type": "video", "src": "videos/bakdes 13.mp4", "caption": "Soilblock planting activity"},
+        {"type": "video", "src": "videos/bakdes 14.mp4", "caption": "Ecoenzyme demonstration"},
+        {"type": "video", "src": "videos/bakdes 15.mp4", "caption": "Teaching highlights"},
+        {"type": "video", "src": "videos/bakdes 17.mp4", "caption": "Giving an educational talk to the orphanage children"},
+        {"type": "video", "src": "videos/bakdes 18.mp4", "caption": "Photo with the orphanage children"},
+        {"type": "video", "src": "videos/bakdes 4.mp4", "caption": "Teaching how to count with the children"},
+        {"type": "video", "src": "videos/bakdes 5.mp4", "caption": "Moderatoring the social service open house"}, 
+        {"type": "video", "src": "videos/bakdes 6.mp4", "caption": "Community impact discussion"},
+        {"type": "video", "src": "videos/bakdes 8.mp4",  "caption": "Volunteer feedback session"},
+        {"type": "video", "src": "videos/bakdes 9.mp4", "caption": "Biogaz production demonstration"}
+    ]
+    }
+  },
+  "3": {
+    "showDisclaimer": false,
+    "description": "Served as Advocacy Division Head at my university's Student Executive Board, leading a team to advocate for student rights, welfare, and academic interests.",
+    "features": [
+        "Advocated for student rights",
+        "Developed campus improvement proposals",
+        "Organized student forums"
+      ],
+    "media": {
+      "folder": "Dam",
+      "items": [
+        {"type": "photo", "src": "dam 1.jpg", "caption": "The team"},
+        {"type": "photo", "src": "dam 2.jpg", "caption": "Moderatoring the hearing sessions"},
+        {"type": "photo", "src": "dam 3.JPG", "caption": "Legislative hearing with the student council"},
+        {"type": "photo", "src": "dam 4.JPG", "caption": "Case study visit to the government legislative"},
+        {"type": "photo", "src": "dam 5.JPG", "caption": "Hearing sessions with the alumni association"}
+
+      ]
+    }
+  },
+
+  "4": {
+  "showDisclaimer": false,
+  "description": "Built this very portfolio website using React to showcase my projects and skills. Implemented Light mode, responsive design, and seamless media delivery through Cloudflare R2. The site features a clean Apple-inspired interface with dynamic project pages and a custom domain.",
+  "features": [
+    "Light mode Apple-inspired design with SF Pro fonts",
+    "Custom domain: albarfan.com (Hostinger)",
+    "Cloudflare R2 storage for 40+ images and videos",
+    "React Router for multi-page navigation",
+    "Dynamic project pages with dedicated JSON data",
+    "Fully responsive on all devices",
+    "Media gallery with autoplay videos",
+    "SSL certificate for secure browsing"
+  ],
+  "techStack": [
+    {"name": "React", "logo": "Logos/logos-react.svg"},
+    {"name": "CSS3", "logo": "Logos/logos-css3.svg"},
+    {"name": "JavaScript", "logo": "Logos/logos-javascript.svg"},
+    {"name": "Cloudflare", "logo": "Logos/cloudflare logo.svg"},
+    {"name": "Hostinger", "logo": "Logos/hostinger-seeklogo.svg"},
+    {"name": "R2", "logo": "Logos/r2.svg"},
+    {"name": "Json", "logo": "Logos/logos-json.svg"}
+  ],
+  "architecture": {
+    "frontend": "React app deployed via build",
+    "domain": "albarfan.com (Hostinger)",
+    "dns": "Cloudflare DNS with proxied records",
+    "storage": "Cloudflare R2 for media assets",
+    "ssl": "Cloudflare SSL certificate"
+  }
+
+  
+  }
+}
