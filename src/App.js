@@ -19,7 +19,7 @@ function App() {
           <p className="job-title">Digital Marketer & Aspiring Software Engineer</p>
           <p className="description">
             Bridging marketing and programming to build products that make sense for users.
-            From live streaming to landing pages, I've learned that the best solutions come 
+            From retail floor to worldwide E-commerce stages, I've learned that the best solutions come 
             from understanding both sides of the story.
           </p>
           <div className="hero-rule" />

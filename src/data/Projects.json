@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "title": "Upscale House Project",
+      "title": "Upscale House Project Landing Page",
       "role": "HTML/CSS Contributor",
       "category": "Web Development",
       "year": "2025",
@@ -40,7 +40,7 @@
       "year": "2025",
       "status": "Completed",
       "type": "tech",
-      "technologies": ["React", "CSS3", "JavaScript", "React Router"]
+      "technologies": ["React", "CSS3", "JavaScript", "React Router","Google Analytics"]
       
     }
   ],
@@ -52,6 +52,6 @@
   "technologies": [
     "HTML", "CSS", "JavaScript", "React", "Leadership",
     "Project Management", "Community Outreach", "Policy Development",
-    "Student Advocacy", "Public Speaking", "React Router", "CSS3"
+    "Student Advocacy", "Public Speaking", "React Router", "CSS3", "Google Analytics"
   ]
 }

@@ -42,7 +42,7 @@ function WorkExperience() {
           <span className="we-eyebrow">Career History</span>
           <h1 className="we-title">Work Experience</h1>
           <p className="we-subtitle">
-            From retail floors to live-streaming stages — a journey through
+            From retail floors to worldwide E-commerce stages — a journey through
             sales, marketing, and the slow pull toward building things.
           </p>
 

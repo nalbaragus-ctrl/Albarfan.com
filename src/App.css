@@ -248,19 +248,12 @@ html, body, #root {
   filter: saturate(0.95) brightness(1.02);
   transition: transform 0.6s var(--ease-apple), filter 0.4s var(--ease-apple);
 }
+
 .photo-wrap:hover .photo-img {
   transform: scale(1.015) translateY(-6px);
   filter: saturate(1) brightness(1);
 }
 
-.photo-badge {
-  position: absolute;
-  bottom: 40px;
-  left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
 .badge-name {
   font-size: 14px;
   font-weight: 500;
