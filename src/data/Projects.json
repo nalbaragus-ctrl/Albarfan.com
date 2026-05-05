@@ -2,9 +2,31 @@
   "projects": [
     {
       "id": 1,
+      "title": "Warehouse Management System",
+      "role": "Developer",
+      "category": "Tech",
+      "year": "2025",
+      "status": "Ongoing",
+      "type": "tech",
+      "technologies": ["Blazor", "ASP.NET Core", "PostgreSQL", "Docker", "DBeaver"]
+      
+    },
+    {
+      "id": 2,
+      "title": "Sentinel Inventory",
+      "role": "Developer",
+      "category": "Tech",
+      "year": "2025",
+      "status": "Ongoing",
+      "type": "tech",
+      "technologies": ["Laravel", "PostgreSQL", "PHP"]
+      
+    },
+    {
+      "id": 3,
       "title": "Upscale House Project Landing Page",
       "role": "HTML/CSS Contributor",
-      "category": "Web Development",
+      "category": "Tech",
       "year": "2025",
       "status": "Completed",
       "type": "tech",
@@ -12,7 +34,7 @@
       
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Bakti Desa - Social Services",
       "role": "Vice President",
       "category": "Leadership",
@@ -22,7 +44,7 @@
       "technologies": ["Leadership", "Project Management", "Community Outreach"]
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Student Executive Board",
       "role": "Advocacy Division Head",
       "category": "Leadership",
@@ -33,10 +55,10 @@
       
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Portfolio Website",
       "role": "Developer",
-      "category": "Web Development",
+      "category": "Tech",
       "year": "2025",
       "status": "Completed",
       "type": "tech",
@@ -45,8 +67,8 @@
     }
   ],
   "categories": [
-    {"id": 1, "name": "All Projects", "count": 4},
-    {"id": 2, "name": "Web Development", "count": 2},
+    {"id": 1, "name": "All Projects", "count": 6},
+    {"id": 2, "name": "Tech", "count": 4},
     {"id": 3, "name": "Leadership", "count": 2}
   ],
   "technologies": [

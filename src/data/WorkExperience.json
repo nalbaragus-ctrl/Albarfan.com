@@ -2,6 +2,15 @@
   "experiences": [
     {
       "id": 1,
+      "year": "2026",
+      "tittle": "Full Stack Developer",
+      "company": "Larangwow Tech",
+      "Type": "Full-time",
+      "description": "Larangwow Tech is a 4-person team  currentlybuilding a SaaS-based multi-tenant WMS, and currently exploring SARIMAX for demand forecasting.",
+      "highlights": ""
+    },
+    {
+      "id": 2,
       "year": "2025 — 2026",
       "title": "E-commerce Operational Supervisor",
       "company": "Upscale House Project",
@@ -14,7 +23,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "year": "2022 — 2025",
       "title": "Senior Host Live Streamer",
       "company": "Biensi Fesyenindo / ThreeSeconds",
@@ -27,7 +36,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "year": "2021 — 2022",
       "title": "Junior Streamer",
       "company": "Panarybody",
@@ -38,7 +47,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "year": "2021",
       "title": "Store Clerk",
       "company": "Eigerindo Multi Produk Industri",
@@ -47,7 +56,7 @@
       "highlights": []
     },
     {
-      "id": 5,
+      "id": 6,
       "year": "2019",
       "title": "Marketing & Sponsorship Staff",
       "company": "L.A Soundsation",

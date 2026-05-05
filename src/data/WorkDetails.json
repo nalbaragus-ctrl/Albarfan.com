@@ -1,6 +1,16 @@
 {
   "1": {
-    "id": 1,
+    "id":1,
+    "year":"2026",
+    "title": "Full Stack Developer",
+    "company": "Larangwow Tech",
+    "location": "Bandung, Indonesia",
+    "type": "Full-time",
+    "overview": "This project is currently in active development, so can't wait to put them all together and show you the final product in the future!"
+  },
+
+  "2": {
+    "id": 2,
     "year": "2025 — 2026",
     "media" : {
         "type": "mixed",
@@ -49,8 +59,8 @@
     "tools": ["Amazon Seller Central", "A+ Content","Helium 10","Amazon Ads", "eBay Seller Hub","InkFrog","Terapeak","Jungle Scout","TikTok Seller Center","TikTok Ads Manager", "Shopee Seller Center", "Google Analytics", "Project Management Tools", "Data Visualization Software", "Content Calendar Software", "OBS Studio", "Lark", "TikTok Studio"]
   },
   
-  "2": {
-    "id": 2,
+  "3": {
+    "id": 3,
     "year": "2022 — 2025",
     "media": {
         "folder": "Biensi",
@@ -91,8 +101,8 @@
     "tools": ["TikTok Live", "Shopee Live", "OBS Studio", "E-commerce Dashboards"]
   },
   
-  "3": {
-    "id": 3,
+  "4": {
+    "id": 4,
     "year": "2021-2022",
     "media": {
       "folder": "Panary",
@@ -126,8 +136,8 @@
     "tools": ["Shopee Live", "TikTok Live", "Social Commerce Platforms"]
   },
   
-  "4": {
-    "id": 4,
+  "5": {
+    "id": 5,
     "year": "2021",
     "title": "Store Clerk",
     "company": "Eigerindo Multi Produk Industri",
@@ -150,8 +160,8 @@
     "tools": ["POS System", "Inventory Software"]
   },
   
-  "5": {
-    "id": 5,
+  "6": {
+    "id": 6,
     "year": "2019",
     "title": "Marketing & Sponsorship Staff",
     "company": "L.A Soundsation",
