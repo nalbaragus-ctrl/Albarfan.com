@@ -3,6 +3,15 @@ import './App.css';
 
 const baseUrl = "https://photos.albarfan.com";
 const PHOTO = `${baseUrl}/Hero/albar.PNG`;
+const handleDownload = ()=> {
+  const cvUrl = "https://photos.albarfan.com/NaufalAlbarAgusCV.pdf";
+  const link =document.createElement('a');
+  link.href =cvUrl;
+  link.download = "NaufalAlbarAgusCV.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 
 function App() {
   return (
@@ -52,13 +61,12 @@ function App() {
                 <span className="button-text">Projects</span>
               </div>
             </a>
-            <a href="/cv" className="nav-button">
-              <div className="nav-button-top">
+              <div className="nav-button" onClick={handleDownload}>
+                <div className="nav-button-top"></div>
+                <div className="nav-button-bottom">
+                  <span className="button-text">DownloadCV</span>
+                </div>
               </div>
-              <div className="nav-button-bottom">
-                <span className="button-text">DownloadCV</span>
-              </div>
-            </a>
           </div>
         </div>
 
