@@ -1,7 +1,7 @@
 {
   "1": {
     "showDisclaimer": true,
-    "description": "Currently developing a smart Warehouse Management System for automotive workshops. This project focuses on integrating SARIMAX-based predictive analytics to forecast inventory depletion. The goal is to automate the replenishment process by identifying which parts are likely to go out of stock before it happens.",
+    "description": "Currently developing a smart Warehouse Management System for automotive workshops. This project focuses on integrating SARIMAX based predictive analytics to forecast inventory depletion. The goal is to automate the replenishment process by identifying which parts are likely to go out of stock before it happens.",
     "features": [
         
       ],
@@ -10,7 +10,7 @@
 
   "2": {
     "showDisclaimer": true,
-    "description": "I am currently building the foundational plumbing specifically focusing on data isolation through a multi-tenant architecture. This ensures that hardware assets like firewalls and servers are securely partitioned between different organizational units..",
+    "description": "I am currently building the foundational plumbing specifically focusing on data isolation through a multi tenant architecture. This ensures that hardware assets like firewalls and servers are securely partitioned between different organizational units..",
     "features": [
         
       ],
@@ -92,7 +92,7 @@
 
   "6": {
   "showDisclaimer": false,
-  "description": "Built this very portfolio website using React to showcase my projects and skills. Implemented Light mode, responsive design, and seamless media delivery through Cloudflare R2. The site features a clean Apple-inspired interface with dynamic project pages and a custom domain.",
+  "description": "Built this very portfolio website using React to showcase my projects and skills. Implemented Light mode, responsive design, and seamless media delivery through Cloudflare R2. The site features a clean Apple inspired interface with dynamic project pages and a custom domain.",
   "features": [
     "Light mode Apple-inspired design with SF Pro fonts",
     "Custom domain: albarfan.com (Hostinger)",

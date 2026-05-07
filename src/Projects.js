@@ -55,7 +55,7 @@ function Projects() {
           <h1>My Projects</h1>
           <p className="subtitle">
             A collection of work across web development, community leadership,
-            and student advocacy — built and led from the ground up.
+            and student advocacy  built and led from the ground up.
           </p>
 
           <div className="stats-grid">
@@ -218,7 +218,7 @@ function Projects() {
           <div className="footer-content">
             <div className="footer-info">
               <h3>Naufal Albar Agus</h3>
-              <p>Digital Marketer · Tech Enthusiast · {projects.length} projects</p>
+              <p>Digital Marketer · Software Engineer · {projects.length} projects</p>
             </div>
             <div className="footer-links">
               <a href="mailto:nalbaragus@gmail.com" className="footer-link">

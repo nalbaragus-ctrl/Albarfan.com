@@ -3,11 +3,11 @@
     {
       "id": 1,
       "year": "2026",
-      "tittle": "Full Stack Developer",
+      "title": "Full Stack Developer",
       "company": "Larangwow Tech",
-      "Type": "Full-time",
+      "type": "Full-time",
       "description": "Larangwow Tech is a 4-person team  currentlybuilding a SaaS-based multi-tenant WMS, and currently exploring SARIMAX for demand forecasting.",
-      "highlights": ""
+      "highlights": []
     },
     {
       "id": 2,

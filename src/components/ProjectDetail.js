@@ -52,8 +52,7 @@ function ProjectDetail() {
         </a>
       </div>
 
-      
-      {project.id === 1 ? (
+      {project.id === 3 ? (
         <>
           {projectDetails?.showDisclaimer && (
             <div className="disclaimer-wrap">
@@ -173,7 +172,7 @@ function ProjectDetail() {
         
         <>
          
-          {project.id === 2 && projectDetails?.media && (
+          {project.id === 4 && projectDetails?.media && (
             <>
               <div className="project-header">
                 <span className="project-eyebrow">{project.category} · {project.year}</span>
@@ -214,8 +213,7 @@ function ProjectDetail() {
             </>
           )}
 
-         
-          {project.id === 3 && projectDetails?.media && (
+          {project.id === 5 && projectDetails?.media && (
             <>
               <div className="project-header">
                 <span className="project-eyebrow">{project.category} · {project.year}</span>
@@ -256,7 +254,195 @@ function ProjectDetail() {
             </>
           )}
 
-          {project.id === 4 && (
+
+          {project.id === 1 && (
+            <>
+              {projectDetails?.showDisclaimer && (
+                <div className="disclaimer-wrap">
+                  <div className="disclaimer">
+                    <span className="disclaimer-icon">⚠️</span>
+                    <p>{projectDetails.disclaimerText}</p>
+                  </div>
+                </div>
+              )}
+
+              <div className="project-header">
+                <span className="project-eyebrow">{project.category} · {project.year}</span>
+                <h1>{project.title}</h1>
+                <p className="project-role">{project.role || 'Project'}</p>
+              </div>
+
+              {projectDetails?.techStack && (
+                <div className="project-section">
+                  <h3>Tech Stack</h3>
+                  <div className="tech-stack-grid">
+                    {projectDetails.techStack.map((tech, i) => (
+                      <div key={i} className="tech-stack-item">
+                        <img 
+                          src={`${baseUrl}/${tech.logo}`} 
+                          alt={tech.name}
+                          className="tech-logo"
+                        />
+                        <span className="tech-name">{tech.name}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              
+              {projectDetails?.architecture && (
+                <div className="project-section">
+                  <h3>Architecture</h3>
+                  <div className="architecture-diagram">
+                    <div className="arch-row">
+                      <div className="arch-box frontend">React App</div>
+                      <div className="arch-arrow">→</div>
+                      <div className="arch-box domain">albarfan.com</div>
+                      <div className="arch-arrow">→</div>
+                      <div className="arch-box browser">Browser</div>
+                    </div>
+                    <div className="arch-row">
+                      <div className="arch-box storage">R2 Storage</div>
+                      <div className="arch-arrow">↔</div>
+                      <div className="arch-box cloudflare">Cloudflare DNS</div>
+                    </div>
+                    <div className="arch-note">
+                      <span className="arch-badge">SSL</span> Secured by Cloudflare
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              
+              {projectDetails?.description && (
+                <div className="project-section">
+                  <h3>Project Overview</h3>
+                  <p>{projectDetails.description}</p>
+                </div>
+              )}
+
+              
+              {projectDetails?.features && projectDetails.features.length > 0 && (
+                <div className="project-section">
+                  <h3>Features</h3>
+                  <ul className="features-list">
+                    {projectDetails.features.map((feature, i) => (
+                      <li key={i}>{feature}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              
+              {project.technologies && (
+                <div className="project-section">
+                  <h3>Skills</h3>
+                  <div className="skills-tags">
+                    {project.technologies.map((tech, i) => (
+                      <span key={i} className="skill-tag">{tech}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
+          {project.id === 2 && (
+            <>
+              {projectDetails?.showDisclaimer && (
+                <div className="disclaimer-wrap">
+                  <div className="disclaimer">
+                    <span className="disclaimer-icon">⚠️</span>
+                    <p>{projectDetails.disclaimerText}</p>
+                  </div>
+                </div>
+              )}
+
+              <div className="project-header">
+                <span className="project-eyebrow">{project.category} · {project.year}</span>
+                <h1>{project.title}</h1>
+                <p className="project-role">{project.role || 'Project'}</p>
+              </div>
+
+              {projectDetails?.techStack && (
+                <div className="project-section">
+                  <h3>Tech Stack</h3>
+                  <div className="tech-stack-grid">
+                    {projectDetails.techStack.map((tech, i) => (
+                      <div key={i} className="tech-stack-item">
+                        <img 
+                          src={`${baseUrl}/${tech.logo}`} 
+                          alt={tech.name}
+                          className="tech-logo"
+                        />
+                        <span className="tech-name">{tech.name}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              
+              {projectDetails?.architecture && (
+                <div className="project-section">
+                  <h3>Architecture</h3>
+                  <div className="architecture-diagram">
+                    <div className="arch-row">
+                      <div className="arch-box frontend">React App</div>
+                      <div className="arch-arrow">→</div>
+                      <div className="arch-box domain">albarfan.com</div>
+                      <div className="arch-arrow">→</div>
+                      <div className="arch-box browser">Browser</div>
+                    </div>
+                    <div className="arch-row">
+                      <div className="arch-box storage">R2 Storage</div>
+                      <div className="arch-arrow">↔</div>
+                      <div className="arch-box cloudflare">Hostinger DNS</div>
+                    </div>
+                    <div className="arch-note">
+                      <span className="arch-badge">SSL</span> Secured by Cloudflare
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              
+              {projectDetails?.description && (
+                <div className="project-section">
+                  <h3>Project Overview</h3>
+                  <p>{projectDetails.description}</p>
+                </div>
+              )}
+
+              
+              {projectDetails?.features && projectDetails.features.length > 0 && (
+                <div className="project-section">
+                  <h3>Features</h3>
+                  <ul className="features-list">
+                    {projectDetails.features.map((feature, i) => (
+                      <li key={i}>{feature}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              
+              {project.technologies && (
+                <div className="project-section">
+                  <h3>Skills</h3>
+                  <div className="skills-tags">
+                    {project.technologies.map((tech, i) => (
+                      <span key={i} className="skill-tag">{tech}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
+        
+          {project.id === 6 && (
             <>
               <div className="project-header">
                 <span className="project-eyebrow">{project.category} · {project.year}</span>

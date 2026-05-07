@@ -42,7 +42,7 @@ function WorkExperience() {
           <span className="we-eyebrow">Career History</span>
           <h1 className="we-title">Work Experience</h1>
           <p className="we-subtitle">
-            From retail floors to worldwide E-commerce stages — a journey through
+            From retail floors to worldwide E-commerce stages a journey through
             sales, marketing, and the slow pull toward building things.
           </p>
 
@@ -114,7 +114,7 @@ function WorkExperience() {
           <div className="footer-content">
             <div className="footer-info">
               <h3>Naufal Albar Agus</h3>
-              <p>Digital Marketer · Tech Enthusiast</p>
+              <p>Digital Marketer · Software Engineer</p>
             </div>
             <div className="footer-links">
               <a href="mailto:nalbaragus@gmail.com" className="footer-link">

@@ -1,70 +1,165 @@
-# Getting Started with Create React App
+# 🌐 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, Apple-inspired portfolio website built with React — featuring a light mode UI, optimized media delivery, and full analytics integration.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠 Tech Stack
 
-### `npm start`
+| Layer         | Tool             |
+| ------------- | ---------------- |
+| Frontend      | React            |
+| Deployment    | Netlify          |
+| Custom Domain | Hostinger        |
+| Asset Storage | Cloudflare R2    |
+| Analytics     | Google Analytics |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+```
+src/
+├── components/
+│   ├── MediaGallery.js / .css
+│   ├── ProjectDetail.js / .css
+│   └── WorkDetail.js / .css
+├── data/
+│   ├── ProjectDetails.json
+│   ├── Projects.json
+│   ├── WorkDetails.json
+│   └── WorkExperience.json
+├── App.js / App.css
+├── index.js / index.css
+├── Projects.js / Projects.css
+└── WorkExperience.js / WorkExperience.css
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v16 or above)
+- npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+npm install
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app will run at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🏗 Build & Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Build
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This outputs a production-ready `build/` folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Deploy to Netlify
 
-### Code Splitting
+This project is deployed via **Netlify** with continuous deployment from the main branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Build command: `npm run build`
+- Publish directory: `build`
 
-### Analyzing the Bundle Size
+> Any push to `main` triggers an automatic redeploy on Netlify.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🌍 Custom Domain (Hostinger)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The site uses a custom domain registered and managed through **Hostinger**.
 
-### Advanced Configuration
+To connect your domain to Netlify:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. In Netlify, go to **Domain Settings** → Add your custom domain.
+2. In your Hostinger DNS panel, set the following records:
 
-### Deployment
+| Type  | Name | Value                   |
+| ----- | ---- | ----------------------- |
+| A     | @    | `75.2.60.5`             |
+| CNAME | www  | `your-site.netlify.app` |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Enable HTTPS in Netlify (usually auto-provisioned via Let's Encrypt).
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ☁️ Asset Storage (Cloudflare R2)
+
+Static media assets (images, videos, etc.) are stored in **Cloudflare R2** to reduce build size and improve global delivery speed.
+
+### Accessing Assets
+
+Assets are served via a public R2 bucket URL. Reference them in your code like:
+
+```js
+const ASSET_BASE_URL = "https://your-bucket.r2.dev";
+
+// Example usage
+<img
+  src={`${ASSET_BASE_URL}/projects/my-image.png`}
+  alt="Project screenshot"
+/>;
+```
+
+### Uploading Assets
+
+Use the Cloudflare dashboard or the `wrangler` CLI:
+
+```bash
+npx wrangler r2 object put your-bucket/projects/my-image.png --file ./my-image.png
+```
+
+---
+
+## 📊 Google Analytics
+
+Google Analytics is integrated for tracking site visits and user behavior.
+
+### Setup
+
+1. Create a property at [analytics.google.com](https://analytics.google.com).
+2. Copy your **Measurement ID** (e.g., `G-XXXXXXXXXX`).
+3. Add it to your `index.html` inside the `<head>`:
+
+```html
+<!-- Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-XXXXXXXXXX");
+</script>
+```
+
+---
+
+## 🎨 Design
+
+- **Theme:** Light mode, Apple-inspired aesthetic
+- **Typography:** Clean sans-serif, generous whitespace
+- **Color palette:** Whites, soft grays, and subtle accent tones
+
+---
+
+## 📄 License
+
+This project is for personal use. Feel free to fork and adapt for your own portfolio.
