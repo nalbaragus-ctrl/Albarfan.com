@@ -16,7 +16,7 @@ function App() {
         <div className="hero-left">
           <span className="eyebrow">Portfolio</span>
           <h1 className="name">Naufal Albar Agus</h1>
-          <p className="job-title">Aspiring Software Engineer & Digital Marketer</p>
+          <p className="job-title">Software Engineer & Digital Marketer</p>
           <p className="description">
             Bridging marketing and programming to build products that make sense for users.
             From retail floor to worldwide E-commerce stages, I've learned that the best solutions come 
@@ -52,6 +52,13 @@ function App() {
                 <span className="button-text">Projects</span>
               </div>
             </a>
+            <a href="/cv" className="nav-button">
+              <div className="nav-button-top">
+              </div>
+              <div className="nav-button-bottom">
+                <span className="button-text">DownloadCV</span>
+              </div>
+            </a>
           </div>
         </div>
 
@@ -70,7 +77,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-info">
               <h3>Naufal Albar Agus</h3>
-              <p>Digital Marketer · Tech Enthusiast</p>
+              <p>Digital Marketer · Fullstack Developer</p>
             </div>
             <div className="footer-links">
               <a href="mailto:nalbaragus@gmail.com" className="footer-link">
