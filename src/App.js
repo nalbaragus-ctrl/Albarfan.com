@@ -4,10 +4,10 @@ import './App.css';
 const baseUrl = "https://photos.albarfan.com";
 const PHOTO = `${baseUrl}/Hero/albar.PNG`;
 const handleDownload = ()=> {
-  const cvUrl = "https://photos.albarfan.com/NaufalAlbarAgusCV.pdf";
+  const cvUrl = "https://photos.albarfan.com/NaufalAlbarAgus_CV.pdf";
   const link =document.createElement('a');
   link.href =cvUrl;
-  link.download = "NaufalAlbarAgusCV.pdf";
+  link.download = "NaufalAlbarAgus_CV.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -25,16 +25,16 @@ function App() {
         <div className="hero-left">
           <span className="eyebrow">Portfolio</span>
           <h1 className="name">Naufal Albar Agus</h1>
-          <p className="job-title">Software Engineer & Digital Marketer</p>
+          <p className="job-title">Digital Operations & FullStack Developer</p>
           <p className="description">
-            Bridging marketing and programming to build products that make sense for users.
+            A tech-savvy professional bridging marketing and programming to build products that make sense for users.
             From retail floor to worldwide E-commerce stages, I've learned that the best solutions come 
             from understanding both sides of the story.
           </p>
           <div className="hero-rule" />
           <div className="hero-stats">
             <div className="hero-stat">
-              <span className="hero-stat-num">5+</span>
+              <span className="hero-stat-num">6</span>
               <span className="hero-stat-label">Years Experience</span>
             </div>
             <div className="hero-stat">
@@ -85,7 +85,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-info">
               <h3>Naufal Albar Agus</h3>
-              <p>Digital Marketer · Fullstack Developer</p>
+              <p>Digital Operations · Fullstack Developer</p>
             </div>
             <div className="footer-links">
               <a href="mailto:nalbaragus@gmail.com" className="footer-link">
