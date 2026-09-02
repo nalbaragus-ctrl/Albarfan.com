@@ -4,10 +4,10 @@ import './App.css';
 const baseUrl = "https://photos.albarfan.com";
 const PHOTO = `${baseUrl}/Hero/albar.PNG`;
 const handleDownload = ()=> {
-  const cvUrl = "https://photos.albarfan.com/NaufalAlbarAgus_CV.pdf";
+  const cvUrl = "https://photos.albarfan.com/CV-NaufalAlbarAgus.pdf";
   const link =document.createElement('a');
   link.href =cvUrl;
-  link.download = "NaufalAlbarAgus_CV.pdf";
+  link.download = "CV-NaufalAlbarAgus.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
