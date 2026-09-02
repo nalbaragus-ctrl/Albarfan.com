@@ -52,11 +52,11 @@ function WorkExperience() {
               <span className="we-stat-label">Roles</span>
             </div>
             <div className="we-stat">
-              <span className="we-stat-num">5+</span>
+              <span className="we-stat-num">1+</span>
               <span className="we-stat-label">Years</span>
             </div>
             <div className="we-stat">
-              <span className="we-stat-num">3</span>
+              <span className="we-stat-num">2</span>
               <span className="we-stat-label">Industries</span>
             </div>
           </div>
@@ -114,7 +114,7 @@ function WorkExperience() {
           <div className="footer-content">
             <div className="footer-info">
               <h3>Naufal Albar Agus</h3>
-              <p>Digital Marketer · Software Engineer</p>
+              <p>Projects Management</p>
             </div>
             <div className="footer-links">
               <a href="mailto:nalbaragus@gmail.com" className="footer-link">

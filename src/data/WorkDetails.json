@@ -1,17 +1,9 @@
 {
-  "1": {
-    "id":1,
-    "year":"2026",
-    "title": "Full Stack Developer",
-    "company": "Larangwow Tech",
-    "location": "Bandung, Indonesia",
-    "type": "Full-time",
-    "overview": "This project is currently in active development, so can't wait to put them all together and show you the final product in the future!"
-  },
+  
 
   "2": {
     "id": 2,
-    "year": "2025 — 2026",
+    "year": "2025 — 2025",
     "media" : {
         "type": "mixed",
         "folder": "Wupscale",
@@ -34,11 +26,11 @@
            
         ]
         },
-    "title": "E-commerce Operational Supervisor",
+    "title": "E-commerce Streamer",
     "company": "Upscale House Project",
     "location": "Bandung, Indonesia",
     "type": "Full-time",
-    "overview": "E-commerce specialist with expertise in Amazon, eBay, TikTok and, Shopee operations. Manages everything from product listings to campaign execution, ensuring brands stand out in crowded marketplaces. Collaborates with creative teams to produce platform-optimized content that drives traffic and sales.",
+    "overview": "E-commerce in Amazon, eBay, TikTok and, Shopee operations. Manages everything from product listings to campaign execution, ensuring brands stand out in crowded marketplaces. Collaborates with creative teams to produce platform-optimized content that drives traffic and sales.",
     
     "responsibilities": [
       "Led international client meetings traveling cities to consult with key stakeholders, align strategies, and strengthen business partnerships",
@@ -59,8 +51,8 @@
     "tools": ["Amazon Seller Central", "A+ Content","Helium 10","Amazon Ads", "eBay Seller Hub","InkFrog","Terapeak","Jungle Scout","TikTok Seller Center","TikTok Ads Manager", "Shopee Seller Center", "Google Analytics", "Project Management Tools", "Data Visualization Software", "Content Calendar Software", "OBS Studio", "Lark", "TikTok Studio"]
   },
   
-  "3": {
-    "id": 3,
+  "1": {
+    "id": 1,
     "year": "2022 — 2025",
     "media": {
         "folder": "Biensi",
@@ -77,7 +69,7 @@
            
         ]
     },
-    "title": "Senior Streamer",
+    "title": "E-commerce Streamer",
     "company": "Biensi Fesyenindo / ThreeSeconds",
     "location": "Bandung, Indonesia",
     "type": "Full-time",
@@ -99,89 +91,7 @@
     
     "skills": ["Live Streaming", "Public Speaking", "Audience Engagement", "Sales Conversion", "Training & Development", "E-commerce Operations", "Brand Representation"],
     "tools": ["TikTok Live", "Shopee Live", "OBS Studio", "E-commerce Dashboards"]
-  },
-  
-  "4": {
-    "id": 4,
-    "year": "2021-2022",
-    "media": {
-      "folder": "Panary",
-      "items": [
-        {"type": "photo", "src": "panarybody 1.jpg", "caption": "The panarybody team celebrating a monthly target achievement"},
-        {"type": "photo", "src": "panarybody 2.jpg", "caption": "The panarybody team celebrating a monthly target achievement"},
-        {"type": "photo", "src": "panarybody 3.jpg", "caption": "Live stream session"},
-        {"type": "photo", "src": "panarybody 4.jpg", "caption": "Highest GMV on live stream session"},
-        {"type": "photo", "src": "panarybody 15.jpg", "caption": "After photoshoot session"}
-      ]
-    },
-    "title": "Junior Streamer",
-    "company": "Panarybody",
-    "location": "Bandung, Indonesia",
-    "type": "Full-time",
-    "overview": "Hosted live streaming sessions for a leading shoe brand, building foundational skills in live commerce and consistently growing account traffic within 2 months of onboarding.",
-    
-    "responsibilities": [
-      "Conducted regular live streaming sessions showcasing footwear products",
-      "Engaged with viewers to answer product questions and drive conversions",
-      "Executed regular live streams to showcase products, engage audiences, and reinforce brand identity",
-      "Coordinated with operations team for order processing and fulfillment during live sessions"
-    ],
-    
-    "achievements": [
-      { "metric": "2 months", "label": "Traffic Growth", "description": "Consistently increased account engagement and follower count from onboarding" },
-      { "metric": "Daily", "label": "Stream Cadence", "description": "Maintained regular streaming schedule for brand consistency" }
-    ],
-    
-    "skills": ["Live Commerce", "Product Presentation", "Customer Engagement", "Platform Navigation", "Real-time Sales"],
-    "tools": ["Shopee Live", "TikTok Live", "Social Commerce Platforms"]
-  },
-  
-  "5": {
-    "id": 5,
-    "year": "2021",
-    "title": "Store Clerk",
-    "company": "Eigerindo Multi Produk Industri",
-    "location": "Bandung, Indonesia",
-    "type": "Full-time",
-    "overview": "Managed daily retail operations including customer service, cashier duties, and handling of transactions in an accurate and timely manner while maintaining store cleanliness and operational standards.",
-    
-    "responsibilities": [
-      "Executed daily store operations, including customer service, cashier duties, and handling of transactions in an accurate and timely manner",
-      "Monitored inventory levels, assisted in stock receiving, and coordinated with the back office to prevent stockouts and overstock",
-      "Maintained cleanliness, orderliness, and compliance with store operational procedures to support a safe and comfortable shopping environment"
-    ],
-    
-    "achievements": [
-      { "metric": "Satisfied", "label": "Customer", "description": "Maintained consistent service quality through attentive customer care" },
-      { "metric": "Zero", "label": "Stock Issues", "description": "Prevented stockouts through proactive inventory monitoring" }
-    ],
-    
-    "skills": ["Customer Service", "Retail Operations", "Point of Sale", "Inventory Management", "Store Maintenance"],
-    "tools": ["POS System", "Inventory Software"]
-  },
-  
-  "6": {
-    "id": 6,
-    "year": "2019",
-    "title": "Marketing & Sponsorship Staff",
-    "company": "L.A Soundsation",
-    "location": "Bandung, Indonesia",
-    "type": "Part-time",
-    "overview": "Supported planning and execution of marketing activities and promotional campaigns for L.A Soundsation events to increase brand visibility and audience engagement while managing sponsor relationships.",
-    
-    "responsibilities": [
-      "Supported planning and execution of marketing activities and promotional campaigns for L.A Soundsation events to increase brand visibility and audience engagement",
-      "Coordinated sponsorship-related tasks, including identification of potential sponsors, preparation of basic sponsor materials, and support during negotiations and follow-ups",
-      "Assisted in managing on-site event marketing and sponsorship activations, ensuring sponsor branding requirements and agreed deliverables were met",
-      "Collaborated with internal teams and external partners to gather content, maintain marketing timelines, and contribute to post-event reporting on sponsorship and marketing outcomes"
-    ],
-    
-    "achievements": [
-      { "metric": "Reach", "label": "Sponsor Retention", "description": "Successfully maintained and renewed key sponsor partnerships" },
-      { "metric": "10+", "label": "Events Supported", "description": "Contributed to marketing and sponsorship for multiple events" }
-    ],
-    
-    "skills": ["Event Marketing", "Sponsor Relations", "Partnership Management", "Campaign Coordination", "Content Gathering"],
-    "tools": ["Marketing Materials", "Event Management Platforms", "Sponsor CRM"]
   }
+  
+  
 }
