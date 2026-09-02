@@ -218,7 +218,7 @@ function Projects() {
           <div className="footer-content">
             <div className="footer-info">
               <h3>Naufal Albar Agus</h3>
-              <p>Digital Operations · Fullstack Developer · {projects.length} projects</p>
+              <p>Project Management · {projects.length} projects</p>
             </div>
             <div className="footer-links">
               <a href="mailto:nalbaragus@gmail.com" className="footer-link">

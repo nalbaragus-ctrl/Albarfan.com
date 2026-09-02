@@ -2,24 +2,24 @@
   "projects": [
     {
       "id": 1,
-      "title": "Warehouse Management System",
-      "role": "Developer",
-      "category": "Tech",
-      "year": "2025",
-      "status": "Ongoing",
+      "title": "West Java Quick Response",
+      "role": "Volunteer",
+      "category": "Leadership",
+      "year": "2021",
+      "status": "Completed",
       "type": "tech",
-      "technologies": ["Blazor", "ASP.NET Core", "PostgreSQL", "Docker", "DBeaver"]
+      "technologies":  ["Leadership", "Project Management", "Community Outreach"]
       
     },
     {
       "id": 2,
-      "title": "Sentinel Inventory",
-      "role": "Developer",
-      "category": "Tech",
-      "year": "2025",
-      "status": "Ongoing",
-      "type": "tech",
-      "technologies": ["Laravel", "PostgreSQL", "PHP"]
+      "title": "Theatrical Study Of Unisba",
+      "role": "Staff",
+      "category": "Leadership",
+      "year": "2022",
+      "status": "Completed",
+      "type": "organization",
+      "technologies": ["Project Management", "Event Planning", "Team Coordination"]
       
     },
     {
@@ -40,7 +40,7 @@
       "category": "Leadership",
       "year": "2022-2025",
       "status": "Completed",
-      "type": "nontech",
+      "type": "organization",
       "technologies": ["Leadership", "Project Management", "Community Outreach"]
     },
     {
@@ -50,7 +50,7 @@
       "category": "Leadership",
       "year": "2023",
       "status": "Completed",
-      "type": "nontech",
+      "type": "organization",
       "technologies": ["Policy Development", "Student Advocacy", "Public Speaking"]
       
     },
