@@ -25,7 +25,7 @@ function App() {
         <div className="hero-left">
           <span className="eyebrow">Portfolio</span>
           <h1 className="name">Naufal Albar Agus</h1>
-          <p className="job-title">Projects Management</p>
+          <p className="job-title">Marketing Communications & Projects Management</p>
           <p className="description">
             A tech-savvy bridging marketing and programming to build products that make sense for users.
             From retail floor to worldwide E-commerce stages, I've learned that the best solutions come 
